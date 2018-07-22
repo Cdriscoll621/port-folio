@@ -1,0 +1,30 @@
+.header {
+    
+    height: 600px;
+    background-color: #ccc;
+    background-image: url('header-img.jpg');
+    background-size: 100% 800px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    margin: 0;
+}
+
+.header-txt {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 6rem;
+    margin: auto;
+    text-align: center;
+
+    &__sub {
+        @extend .header-txt;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
