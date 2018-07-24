@@ -1,0 +1,19 @@
+{
+  "name": "port-folio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cdriscoll621/port-folio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cdriscoll621/port-folio/issues"
+  },
+  "homepage": "https://github.com/Cdriscoll621/port-folio#readme"
+}
