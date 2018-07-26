@@ -249,21 +249,28 @@ li {
 
 ////// Messenger////
 
-#messenger {
-    position: absolute;
+// html, body {
+//     margin: 0;   
+//     padding: 0;
+//     font-size:     1rem;     
+//     font-weight: 200;
+//     width:         100%;     
+//     height:     100%;
+//     font-family: 'Oswald', cursive;
+//     text-transform: uppercase;
+//     background-color: rgba(23,23,25,1);
+//     color: #eee;
+//   }
+  .content {
+    text-align: center;
+    position: relative;      
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: monospace;
-    font-size: 20px;
-    white-space: nowrap;
-    text-shadow: 0 2px 2px rgba(#000, 0.9);
+    // -ms-transform: translateY(-50%);
+    // -webkit-transform: translateY(-50%);
+    // transform: translateY(-50%);
   }
-
-  .bodyy {
-    background: #222;
-    color: #f0f0f0;
+  .content span{
+    width: 30px; display: inline-block;
   }
-
 
   ////////
