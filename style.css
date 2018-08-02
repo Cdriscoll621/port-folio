@@ -7,6 +7,9 @@ h1 {
   font-family: 'Unica One', cursive;
   font-size: 3rem; }
 
+.black-txt {
+  color: black; }
+
 .myButt {
   outline: none;
   border: none;
@@ -86,6 +89,9 @@ h1 {
 
 .marg-150-50 {
   margin: 150px 50px; }
+
+.margin-0 {
+  margin: 0; }
 
 div.container {
   font-family: 'Unica One', cursive;
