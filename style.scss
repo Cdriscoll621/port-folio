@@ -24,65 +24,65 @@ h1 {
 
 ///// BUTTONS /////
 
-@mixin transition($in) {
-	transition:$in;
-	-webkit-transition:$in;
-	-moz-transition:$in;
-	-o-transition:$in;
-	-ms-transition:$in;
-}
+// @mixin transition($in) {
+// 	transition:$in;
+// 	-webkit-transition:$in;
+// 	-moz-transition:$in;
+// 	-o-transition:$in;
+// 	-ms-transition:$in;
+// }
 
-.myButt {
-	outline:none;
-	border:none;
-	padding:20px;
-	display:block;
-	margin:50px auto;
-	cursor:pointer;
-	font-size:20px;
-	background-color:transparent;
-	position:relative;
-	border:2px solid #fff;
+// .myButt {
+// 	outline:none;
+// 	border:none;
+// 	padding:20px;
+// 	display:block;
+// 	margin:50px auto;
+// 	cursor:pointer;
+// 	font-size:20px;
+// 	background-color:transparent;
+// 	position:relative;
+// 	border:2px solid #fff;
 
-	@include transition(all 0.5s ease);
-}
+// 	@include transition(all 0.5s ease);
+// }
 
 
-.three {
-	color:#fff;
-	border-color:transparent;
+// .three {
+// 	color:#fff;
+// 	border-color:transparent;
 
-	&:before {
-		width:0;
-		height:3px;
-		content:" ";
-		background-color: red;
-		position:absolute;
-		top:0;
-		left:50%;
+// 	&:before {
+// 		width:0;
+// 		height:3px;
+// 		content:" ";
+// 		background-color: red;
+// 		position:absolute;
+// 		top:0;
+// 		left:50%;
 
-		@include transition(all 0.3s ease);
-	}
+// 		@include transition(all 0.3s ease);
+// 	}
 
-	&:after {
-		@extend .three:before;
-		top:100%;
-	}
+// 	&:after {
+// 		@extend .three:before;
+// 		top:100%;
+// 	}
 
-	&:hover {
-		letter-spacing:8px;
-		color:red;
+// 	&:hover {
+// 		letter-spacing:8px;
+// 		color:red;
 
-		&:before {
-			width:100%;
-			left:0;
-		}
-		&:after {
-			width:100%;
-			left:0;
-		}
-	}
-}
+// 		&:before {
+// 			width:100%;
+// 			left:0;
+// 		}
+// 		&:after {
+// 			width:100%;
+// 			left:0;
+// 		}
+// 	}
+// }
 
 //// HEADER /////
 

@@ -11,51 +11,6 @@ h1 {
 .black-txt {
   color: black; }
 
-.myButt {
-  outline: none;
-  border: none;
-  padding: 20px;
-  display: block;
-  margin: 50px auto;
-  cursor: pointer;
-  font-size: 20px;
-  background-color: transparent;
-  position: relative;
-  border: 2px solid #fff;
-  transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease; }
-
-.three {
-  color: #fff;
-  border-color: transparent; }
-  .three:before, .three:after {
-    width: 0;
-    height: 3px;
-    content: " ";
-    background-color: red;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease; }
-  .three:after {
-    top: 100%; }
-  .three:hover {
-    letter-spacing: 8px;
-    color: red; }
-    .three:hover:before, .three:hover:after {
-      width: 100%;
-      left: 0; }
-    .three:hover:after {
-      width: 100%;
-      left: 0; }
-
 .header {
   height: 600px;
   background-color: #ccc;
