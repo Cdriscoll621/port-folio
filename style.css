@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background-color: #888; }
+  background-color: #888;
+  font-family: 'Karla', sans-serif; }
 
 h1 {
   color: white;
