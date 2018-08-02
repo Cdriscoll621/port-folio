@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Cdriscoll621/port-folio/issues"
   },
-  "homepage": "https://github.com/Cdriscoll621/port-folio#readme"
+  "homepage": "https://github.com/Cdriscoll621/port-folio#readme",
+  "dependencies": {
+    "d3": "^5.5.0"
+  }
 }
