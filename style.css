@@ -191,6 +191,11 @@ li {
   width: 30px;
   display: inline-block; }
 
+.pie {
+  color: pink;
+  background-color: antiquewhite;
+  font-family: 'Courier New', Courier, monospace; }
+
 .aboutme {
   background-color: #ccc; }
 
