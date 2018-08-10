@@ -9,6 +9,11 @@
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="https://www.amcharts.com/lib/3/gauge.js"></script>
+<!-- <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script> -->
+<!-- <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" /> -->
+<!-- <script src="https://www.amcharts.com/lib/3/themes/none.js"></script> -->
     <script src="index.js"></script>
     <title>Hire Me</title>
 </head>
@@ -56,7 +61,7 @@
 
     </div>
 
-    <div id="middle" class="aboutme">
+    <div id="middle" class="aboutme row gray">
 
         <div>
 
@@ -77,35 +82,37 @@
             </div>
     
             <div>
-                <p>
-                    Lorem ipsum dolor sit amet, ad quando nostrum nam, cum corpora repudiare et. Vix no legere urbanitas. Nec eu enim ludus definitiones, at per persius inciderint. Wisi inani noster ut vel, et eam scripta referrentur, ius ei invidunt facilisi torquatos.
-                </p>
-    
+
+                <div id="chartdiv"></div>
+
             </div>
     
         </div>
 
-        <div id="bottom" class="">
+<div id="bottom" class="white">
 
-                <div class="pad-top-80">
-                        <h1 class="margin-0 black-txt">PROJECTS</h1>
+    <div class="pad-top-80">
+        <h1 class="margin-0 black-txt">PROJECTS</h1>
 
-                
-                        <ul class="flex">
-                            <li><a class="link" href="https://barkerapp.herokuapp.com/"><img class="pjct-img" src='barker.png'></a></li>
-                            <li><a class="link" href="http://obtainable-smile.surge.sh/"><img class="pjct-img" src='alice.png'></a></li>
-                
-                        </ul>
-                    
-                    </div>
 
-    <div class="socialDark">
-            <div id="social">
-                <a href="https://github.com/Cdriscoll621"><span class="fab fa-github-square"></span></a>
-                <a href="https://www.linkedin.com/in/charlotte-driscoll-699ab4143/"><span class="fab fa-linkedin"></span></a>
-                <a href="mailto:chardriscoll8@gmail.com"><span class="fas fa-envelope-square"></span></a>
-            </div>
-        </div>
+        <ul class="flex">
+            <li><a class="link" href="https://barkerapp.herokuapp.com/"><img class="pjct-img" src='barker.png'></a></li>
+            <li><a class="link" href="http://obtainable-smile.surge.sh/"><img class="pjct-img" src='alice.png'></a></li>
+
+        </ul>
+
+    </div>    
+
+</div>
+
+
+<div class="socialDark">
+    <div id="social">
+        <a href="https://github.com/Cdriscoll621"><span class="fab fa-github-square"></span></a>
+        <a href="https://www.linkedin.com/in/charlotte-driscoll-699ab4143/"><span class="fab fa-linkedin"></span></a>
+        <a href="mailto:chardriscoll8@gmail.com"><span class="fas fa-envelope-square"></span></a>
+    </div>
+</div>
 
 </body>
 </html>

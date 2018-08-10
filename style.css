@@ -8,6 +8,25 @@ h1 {
   font-family: 'Unica One', cursive;
   font-size: 3rem; }
 
+.row {
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.gray {
+  background-color: lightgrey;
+  -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+  padding: 65px 10px; }
+
+.white {
+  background-color: white;
+  -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+  clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%);
+  padding: 65px 10px; }
+
+.clip {
+  clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%); }
+
 .black-txt {
   color: black; }
 
@@ -191,10 +210,10 @@ li {
   width: 30px;
   display: inline-block; }
 
-.pie {
-  color: pink;
-  background-color: antiquewhite;
-  font-family: 'Courier New', Courier, monospace; }
+#chartdiv {
+  width: 50%;
+  height: 250px;
+  margin: auto; }
 
 .aboutme {
   background-color: #ccc; }
