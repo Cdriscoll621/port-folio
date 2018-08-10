@@ -16,7 +16,7 @@ h1 {
   background-color: lightgrey;
   -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
   clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-  padding: 65px 10px; }
+  padding: 0 20px; }
 
 .white {
   background-color: white;
@@ -92,7 +92,8 @@ div.container a {
   height: 100px;
   width: 100%;
   overflow: hidden;
-  position: fixed; }
+  position: fixed;
+  z-index: 1; }
 
 div.brackets a:before, div.brackets a:after {
   position: absolute;

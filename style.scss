@@ -26,7 +26,8 @@ h1 {
     background-color: lightgrey;
     -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
     clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-    padding: 65px 10px;
+    // padding: 65px 10px;
+    padding: 0 20px;
 }
 
 .white {
@@ -162,6 +163,7 @@ div.container a
     width: 100%;
     overflow: hidden;
     position: fixed;
+    z-index: 1;
 
 }
 
